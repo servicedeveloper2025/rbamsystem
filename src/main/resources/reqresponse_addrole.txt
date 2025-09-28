@@ -1,0 +1,90 @@
+
+
+
+mothod : GET
+Request :
+url : http://localhost:8082/com/n6n/addrole
+
+Response :
+
+{
+    "roleList": [
+        {
+            "roleId": "o1001",
+            "roleName": "Admin"
+        },
+        {
+            "roleId": "o1002",
+            "roleName": "Manager"
+        },
+        {
+            "roleId": "o1003",
+            "roleName": "Staff"
+        },
+        {
+            "roleId": "o1004",
+            "roleName": "Customer"
+        }
+    ],
+    "industryList": [
+        {
+            "description": "Hospital, Clinic",
+            "industryId": "i1001",
+            "industryName": "health care"
+        },
+        {
+            "description": "Showroom, Garage, etc",
+            "industryId": "i1002",
+            "industryName": "Automobile"
+        },
+        {
+            "description": "Salons, Spas, Gyms, etc",
+            "industryId": "i1003",
+            "industryName": "Personal Care"
+        },
+        {
+            "description": "Hotel, Resturant",
+            "industryId": "i1004",
+            "industryName": "Hospitality"
+        },
+        {
+            "description": "Industry, Factory, Ofice, etc",
+            "industryId": "i1005",
+            "industryName": "General"
+        }
+    ],
+    "formList": [
+        {
+            "formId": "f1001",
+            "formName": "Patient Form"
+        },
+        {
+            "formId": "f1002",
+            "formName": "Clinic Form"
+        },
+        {
+            "formId": "f1003",
+            "formName": "Test Form"
+        },
+        {
+            "formId": "f1004",
+            "formName": "Result Form"
+        },
+        {
+            "formId": "f1005",
+            "formName": "Doctor Form"
+        },
+        {
+            "formId": "f1006",
+            "formName": "Backup Form"
+        },
+        {
+            "formId": "f1007",
+            "formName": "Utility Form"
+        },
+        {
+            "formId": "f1008",
+            "formName": "Doctor Form"
+        }
+    ]
+}
